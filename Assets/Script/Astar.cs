@@ -157,7 +157,7 @@ public class Astar : MonoBehaviour
         {
             Node NeighborNode = nodeArray[checkX - bottomLeft.x, checkY - bottomLeft.y];
 
-            // 이웃노드에 넣고, 직선은 10 비용
+            // 이웃노드에 넣고, 직선은 비용 10
             int moveCost = 0;
             if (currentNode.x - checkX == 0 || currentNode.y - checkY == 0)
                 moveCost = currentNode.g + 10;
