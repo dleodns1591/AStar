@@ -88,7 +88,7 @@ public class Astar : MonoBehaviour
         sizeY = topRight.y - bottomLeft.y + 1;
         nodeArray = new Node[sizeX, sizeY];
 
-        
+        // º® 
         for (int i = 0; i < sizeX; i++)
         {
             for (int j = 0; j < sizeY; j++)
